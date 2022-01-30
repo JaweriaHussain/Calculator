@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web System and Technologies Assignment One</title>
+    <!-- Adding External Css File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+   <header class="navbar-top">
+        <!-- A nav bar for showcasing the work -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="#Grid">Grid</a></li>
+            <li><a href="video.html">Video Background</a></li>
+            
+   </header>
+<div class="container">
+    <p class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7125.958228350529!2d67.77439757314885!3d26.745042582800213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394a9884f133a7b7%3A0x649f9742b625bd89!2sD%C4%81du%2C%20Dadu%20District%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1643387079750!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </p>
+    <form class="form-header">
+        <p>Contact Us</p>
+        <table class="form-table">
+            <tr>
+                <td>User-Name</td>
+                <td ><input type="text" maxlength="8" minlength="4" required></td>
+            </tr>
+            <tr>
+                <td>Sur-Name</td>
+                <td ><input type="text" maxlength="8" minlength="4"></td>
+            </tr>
+            <tr>
+                <td>NIC</td>
+                <td ><input type="text" maxlength="14" minlength="14" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td ><input type="date" required></td>
+            </tr>
+            <tr>
+                <td>ZIP</td>
+                <td ><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td ><input type="email"required></td>
+            </tr>
+           
+            <tr>
+                <td colspan="2">
+                    
+                    Terms of Service :
+                    <input name="terms" class="agree" type="radio">agree
+                    <input name="terms" class="disgree" type="radio">disgree
+                   <br>
+                    <input id="button" type="submit" value="SUBMIT">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    </div>
+    
+</body>
+</html>
